@@ -4,7 +4,7 @@
   "description": "Project with nodejs to send mail",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/lucasfeitozas/send-mail/issues"
   },
-  "homepage": "https://github.com/lucasfeitozas/send-mail#readme"
+  "homepage": "https://github.com/lucasfeitozas/send-mail#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
 }
